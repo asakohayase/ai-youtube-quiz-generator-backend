@@ -4,10 +4,10 @@ import os
 
 
 def add_middleware(app: FastAPI) -> None:
-    # frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
+    frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["frontend_url"],
+        allow_origins=[frontend_url],
         allow_methods=["*"],
         allow_headers=["*"],
     )
