@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "backend"
+name = "ai_youtube_quiz_generator_backend"
 version = "0.1.0"
 description = "Youtube Quiz Generator Backend"
 authors = ["Asako Hayase"]
