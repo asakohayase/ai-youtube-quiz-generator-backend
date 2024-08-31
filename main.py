@@ -179,7 +179,7 @@ def get_num_questions():
             if 1 <= num_questions <= 15:
                 return num_questions
             else:
-                print("Please enter a number between 1 and 30.")
+                print("Please enter a number between 1 and 15.")
         except ValueError:
             print("Please enter a valid number.")
 

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "backend"
+name = "ai_youtube_quiz_generator_backend"
 version = "0.1.0"
 description = "Youtube Quiz Generator Backend"
 authors = ["Asako Hayase"]
@@ -19,6 +19,7 @@ fastapi = "^0.111.1"
 uvicorn = "^0.30.3"
 youtube-transcript-api = "^0.6.2"
 groq = "^0.9.0"
+openai = "^1.42.0"
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
 useLibraryCodeForTypes = true
